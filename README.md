@@ -15,7 +15,8 @@ This project implements LU decomposition (Doolittle’s method) in C, with both 
   - Fine-grained synchronization via OpenMP locks
   - Auto switch to serial execution when the lower triangle becomes small  
 - ✅ Built-in correctness check: verifies that $LU \approx A$  
-- 📈 Performance evaluation: time curve plotted and compared against naive version  
+- 📈 Performance evaluation: time curve plotted and compared against naive version
+- Automaticly change to serial code when n is small!
 
 ## 💡 Motivation
 
