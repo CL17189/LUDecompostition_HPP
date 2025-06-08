@@ -27,11 +27,11 @@ Naive parallelization of LU decomposition can lead to performance degradation du
 - Poor data locality due to irregular memory access  
 
 This project improves on these issues by borrowing concepts from Gram-Schmidt Pthreads-style parallelization, leading to better scaling and efficiency.
-
+![Algo Chart](plot/algo.png)
 ## 📊 Performance
 
 The optimized version shows a clear performance gain over the naive one, especially on larger matrices. A time-vs-size curve (notebook or figure included in the repo) illustrates this improvement.
-![Performance Chart](plot/chart.png)
+![Performance Chart](plot/time.png)
 
 ## 📁 Structure
 
