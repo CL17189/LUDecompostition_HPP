@@ -39,6 +39,7 @@ The optimized version shows a clear performance gain over the naive one, especia
 .
 ├── src/
 │   ├── lu.c                 # Main source with all functions
+|   ├── makefile
 ├── test/                    # Test scripts and validation
 ├── plot/                    # Performance plots and analysis
 └── README.md
